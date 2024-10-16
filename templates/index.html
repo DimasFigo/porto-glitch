@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <!-- Css Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: "Playpen Sans", cursive;
+    }
+
+    span {
+      color: #ffd100;
+    }
+
+    .jumbotron {
+      padding: 2rem 1rem;
+      background-color: #e8ebea;
+    }
+
+    .mycards {
+      margin: 20px auto 0px auto;
+      width: 95%;
+      max-width: 1200px;
+      margin-bottom: 50px;
+    }
+
+    .myskill {
+      margin: 20px auto 0px auto;
+      width: 95%;
+      max-width: 1200px;
+      margin-bottom: 50px;
+    }
+
+    .mycontact {
+      width: 95%;
+      max-width: 500px;
+      margin: 20px auto 0px auto;
+      padding: 20px;
+      box-shadow: 0px 0px 3px 0px gray;
+    }
+
+    .mycontact .title {
+      color: #202020;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .mybtns {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    footer {
+      padding-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar text-dark navbar-light bg-warning shadow-sm"
+    style="background-color: #ffd100; color: #202020;">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portofolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#porto">Portofolio</a>
+          </li>
+          <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Header -->
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="display-4">Welcome to my Portfolio</h1>
+      <p class="lead">PROGRAMMING JUNIOR WEB DEV</p>
+      <a class="btn btn-warning btn-lg" href="" role="button">Visit My Works</a>
+    </div>
+  </section>
+  <!-- End header -->
+
+  <!-- About -->
+  <section id="about">
+    <div class="container ">
+      <div class="row ">
+        <div class="col text-center mt-4 mb-3">
+          <h2> About <span>Me</span></h2>
+        </div>
+        <div class="row text-center">
+          <div class="col">
+            <img src="static/Asset/pp_new.png" alt="Foto" width="200">
+          </div>
+
+          <div class="col ">
+            <p class="fs-5"> Dimas Dwifigo Cahyo</p>
+            <p>I am a student at the Universitas Teknology Digital Indonesia , I am 20 years old, I am a beginner
+              website developer.</p>
+            <a class="btn btn-warning btn-lg" href="" role="button">Visit My Works</a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- End About -->
+
+  <!-- Skill -->
+  <div" class="myskill">
+    <div class="row mb-4 mt-4">
+      <div class="col=4 text-center mb-4 mt-4">
+        <h1>My <span>Skill</span></h1>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+      <div class="col-3">
+        <div class="card h-100 ">
+          <div class="card-body">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-globe"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+            </svg>
+            <h5 class="card-title mb-4 mt-4">Web Develpoment</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card h-100 ">
+          <div class="card-body">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-display"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4q0 1 .25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75Q6 13 6 12H2s-2 0-2-2zm1.398-.855a.76.76 0 0 0-.254.302A1.5 1.5 0 0 0 1 4.01V10c0 .325.078.502.145.602q.105.156.302.254a1.5 1.5 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.76.76 0 0 0 .254-.302 1.5 1.5 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.76.76 0 0 0-.302-.254A1.5 1.5 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145" />
+            </svg>
+            <h5 class="card-title mb-4 mt-4">UI/UX Design</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card h-100 ">
+          <div class="card-body">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
+              class="bi bi-camera-reels" viewBox="0 0 16 16">
+              <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0" />
+              <path
+                d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1" />
+              <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+            </svg>
+            <h5 class="card-title mb-4 mt-4">Creator</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card h-100 ">
+          <div class="card-body">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
+              class="bi bi-basket-fill" viewBox="0 0 16 16">
+              <path
+                d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0z" />
+            </svg>
+            <h5 class="card-title mt-4 md-4">Bussines Management</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <!-- End Skill -->
+
+
+    <!-- Porto -->
+    <div id="porto" class="mycards">
+      <div class="row">
+        <div class="col text-center mb-4 md-4">
+          <h1>My <span>Portofolio</span></h1>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="static/Asset/porto-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Figo Computer</h5>
+              <div class="mybtns">
+                <a href="https://dimasfigo.github.io/FigoComputer/index.html"><button href="" type="button"
+                    class="btn btn-warning">Visit</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="static/Asset/porto-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Figo Computer</h5>
+              <div class="mybtns">
+                <a href="https://dimasfigo.github.io/FigoComputer/index.html"><button href="" type="button"
+                    class="btn btn-warning">Visit</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="static/Asset/porto-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Figo Computer</h5>
+              <div class="mybtns">
+                <a href="https://dimasfigo.github.io/FigoComputer/index.html"><button href="" type="button"
+                    class="btn btn-warning">Visit</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- End Porto -->
+
+
+    <!-- Contact -->
+    <div id="contact" class="mycontact">
+      <div class="title">
+        <h1>Contact <span>Me</span></h1>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder="enter movie url">
+        <label for="floatingInput">Nickname</label>
+      </div>
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Message</label>
+      </div>
+
+      <div class="mybtns">
+        <button type="button" class="btn btn-warning">Leave a message</button>
+      </div>
+    </div>
+    <!-- End Contact -->
+
+    <!-- Footer -->
+    <footer class="text-center text-white">
+      <div class="text-center text-dark p-3" style="background-color: #ffd100;">
+        © 2024 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- Js Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
